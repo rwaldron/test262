@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.4.4_A1.1_T1
    Promise.reject
 author: Sam Mikes
 description: Promise.reject is a function

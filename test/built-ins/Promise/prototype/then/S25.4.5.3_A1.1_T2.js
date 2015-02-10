@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.5.3_A1.1_T2
     Promise.prototype.then is a function of two arguments
 author: Sam Mikes
 description: Promise.prototype.then is a function of two arguments

@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.2.1_A2.1_T1
     Promise reaction jobs have predictable environment
 author: Sam Mikes
 description: argument thrown through "Thrower"

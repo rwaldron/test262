@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.4_A2.1_T2
    Misc sequencing tests
    inspired by https://github.com/promises-aplus/promises-tests/issues/61
    Case "T2a"

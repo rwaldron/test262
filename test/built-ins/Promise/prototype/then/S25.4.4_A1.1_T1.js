@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.4_A1.1_T1
    Misc sequencing tests
    inspired by https://github.com/getify/native-promise-only/issues/34#issuecomment-54282002    
 author: Sam Mikes

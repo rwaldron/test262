@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.4.3_A3.1_T2
     Promise.race must throw TypeError per
     CreatePromiseCapabilityRecord step 8 when
     promiseCapabliity.[[Resolve]] is not callable

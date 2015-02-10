@@ -3,6 +3,7 @@
 
 /*---
 info: > 
+es6id: S25.4.4.3_A2.2_T3
     Promise.race rejects when GetIterator() returns an abrupt completion
     4. Let iterator be GetIterator(iterable).
     5. IfAbruptRejectPromise(iterator, promiseCapability)

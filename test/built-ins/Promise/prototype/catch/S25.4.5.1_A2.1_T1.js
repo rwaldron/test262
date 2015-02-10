@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.5.1_A2.1_T1
     catch is a method on a Promise
 author: Sam Mikes
 description: catch is a method on a Promise

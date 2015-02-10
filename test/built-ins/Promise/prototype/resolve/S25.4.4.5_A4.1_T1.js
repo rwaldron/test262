@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.4.5_A4.1_T1
     Section 25.4.1.4.2 
 author: Sam Mikes
 description: self-resolved Promise throws TypeError

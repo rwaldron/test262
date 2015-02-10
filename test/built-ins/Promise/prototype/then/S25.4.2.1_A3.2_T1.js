@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.2.1_A3.2_T1
     Promise reaction jobs have predictable environment
     'this' is global object in sloppy mode,
     undefined in strict mode

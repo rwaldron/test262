@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.5.1_A3.1_T1
     catch(arg) is equivalent to then(undefined, arg)
 author: Sam Mikes
 description: catch is implemented in terms of then

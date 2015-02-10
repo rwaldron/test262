@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.5.3_A4.1_T2
     PerformPromiseThen 
     Ref 25.4.5.3.1
 author: Sam Mikes

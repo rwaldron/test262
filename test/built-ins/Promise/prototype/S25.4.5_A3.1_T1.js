@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.5_A3.1_T1
     Promise.prototype.constructor is the Promise constructor
 author: Sam Mikes
 description: Promise.prototype.constructor is the Promise constructor

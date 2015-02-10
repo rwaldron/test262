@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.4.2_A1.1_T1
     Promise prototype object exists, is object, not enumerable, writable,
     or configurable
 author: Sam Mikes

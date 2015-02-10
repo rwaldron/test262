@@ -3,6 +3,7 @@
 
 /*---
 info: >
+es6id: S25.4.4.5_A1.1_T1
    Promise.resolve
 author: Sam Mikes
 description: Promise.resolve is a function
