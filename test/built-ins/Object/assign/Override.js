@@ -18,10 +18,10 @@ undefined and null should be ignored;
 var result = Object.assign(target,"1a2c3",{a:"c"},undefined,{b:6},null,125,{a:5});
 
 assert.sameValue(Object.keys(result).length, 7 , "The length should be 7 in the final object.");
-assert.sameValue(result.a, 5, "The value should be {a:5}.");
-assert.sameValue(result[0], "1", "The value should be {\"0\":\"1\"}.");
-assert.sameValue(result[1], "a", "The value should be {\"1\":\"a\"}.");
-assert.sameValue(result[2], "2", "The value should be {\"2\":\"2\"}.");
-assert.sameValue(result[3], "c", "The value should be {\"3\":\"c\"}.");
-assert.sameValue(result[4], "3", "The value should be {\"4\":\"3\"}.");
-assert.sameValue(result.b, 6, "The value should be {b:6}.");
+assert.sameValue(result.a, 5, "The value of result.a is 5.");
+assert.sameValue(result[0], "1", "The value of result[0] is '1'.");
+assert.sameValue(result[1], "a", "The value of result[1] is 'a'.");
+assert.sameValue(result[2], "2", "The value of result[2] is '2'.");
+assert.sameValue(result[3], "c", "The value of result[3] is 'c'.");
+assert.sameValue(result[4], "3", "The value of result[4] is '3'.");
+assert.sameValue(result.b, 6, "The value of result.b is 6.");
