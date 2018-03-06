@@ -2,8 +2,6 @@
 // This code is governed by the BSD license found in the LICENSE file.
 /*---
 esid: sec-typedarray-typedarray
-description: >
-  Return abrupt from getting typedArray argument's buffer.constructor.@@species
 info: |
   22.2.4.3 TypedArray ( typedArray )
 
