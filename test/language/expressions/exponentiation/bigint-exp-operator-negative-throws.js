@@ -16,7 +16,7 @@ info: |
   2. If base is 0n and exponent is 0n, return 1n.
   3. Return a BigInt representing the mathematical value of base raised to the power exponent.
   ...
-features: [BigInt]
+features: [BigInt,exponentiation]
 ---*/
 
 assert.throws(RangeError, function() {

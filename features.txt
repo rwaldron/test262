@@ -106,6 +106,7 @@ default-arg
 default-parameters
 destructuring-assignment
 destructuring-binding
+exponentiation
 for-of
 Float64Array
 generators

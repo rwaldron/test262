@@ -3,7 +3,7 @@
 /*---
 esid: sec-exp-operator-runtime-semantics-evaluation
 description: Type coercion order of operations for exponentiation operator
-features: [Symbol]
+features: [exponentiation,Symbol]
 info: |
   Evaluate lhs
   Evaluate rhs

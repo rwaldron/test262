@@ -4,7 +4,7 @@
 /*---
 esid: sec-exp-operator-runtime-semantics-evaluation
 description: BigInt exponentiation arithmetic
-features: [BigInt]
+features: [BigInt,exponentiation]
 ---*/
 
 function testExpt(x, y, z) {

@@ -3,7 +3,7 @@
 /*---
 description: exponentiation operator ToNumeric with BigInt operands
 esid: sec-exp-operator-runtime-semantics-evaluation
-features: [BigInt, Symbol.toPrimitive, computed-property-names]
+features: [BigInt,computed-property-names,exponentiation,Symbol,Symbol.toPrimitive]
 ---*/
 
 assert.sameValue(Object(2n) ** 1n, 2n, "ToPrimitive: unbox object with internal slot");
