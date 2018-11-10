@@ -3,13 +3,17 @@
 
 /*---
 author: Lucas Azzola
-esid: pending
+esid: prod-Catch
 description: >
   It is a SyntaxError to have a try/catch statement with an empty CatchParameter
-features: [optional-catch-binding]
 info: |
-  Catch[Yield, Await, Return]:
-    catch ( CatchParameter[?Yield, ?Await] ) Block[?Yield, ?Await, ?Return]
+  Catch :
+    catch ( CatchParameter ) Block
+
+  CatchParameter :
+    BindingIdentifier
+    BindingPattern
+
 negative:
   phase: parse
   type: SyntaxError

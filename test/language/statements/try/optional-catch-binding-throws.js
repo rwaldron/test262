@@ -3,7 +3,7 @@
 
 /*---
 author: Lucas Azzola
-esid: pending
+esid: prod-Catch
 description: errors can be thrown from catch clause without binding
 features: [optional-catch-binding]
 info: |

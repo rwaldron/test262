@@ -3,7 +3,7 @@
 
 /*---
 author: Lucas Azzola
-esid: pending
+esid: sec-runtime-semantics-catchclauseevaluation
 description: lexical environment runtime semantics for optional catch binding
 features: [optional-catch-binding]
 info: |

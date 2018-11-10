@@ -3,15 +3,12 @@
 
 /*---
 author: Lucas Azzola
-esid: pending
+esid: prod-Catch
 description: try/catch/finally syntax with omission of the catch binding
 features: [optional-catch-binding]
 info: |
-  Optional Catch Binding
-
-  Catch[Yield, Await, Return]:
-    (...)
-    catch Block[?Yield, ?Await, ?Return]
+  Catch :
+    catch Block
 ---*/
 
 try {} catch {} finally {}
