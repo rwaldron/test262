@@ -7,7 +7,7 @@ description: >
   Test Atomics.waitAsync on arrays that allow atomic operations
 flags: [async]
 includes: [atomicsHelper.js]
-features: [Atomics.waitAsync, Atomics]
+features: [Atomics.waitAsync, Atomics, BigInt]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function');
 
@@ -25,8 +25,8 @@ $262.agent.start(`
     var view = new BigInt64Array(sab, 32, 20);
 
     view[0] = 0n;
-    $262.agent.report("A " + (await Atomics.waitAsync(view, 0, 0, 0).value))
-    $262.agent.report("B " + (await Atomics.waitAsync(view, 0, 37, 0).value));
+    $262.agent.report("A " + (await Atomics.waitAsync(view, 0, 0n, 0).value))
+    $262.agent.report("B " + (await Atomics.waitAsync(view, 0, 37n, 0).value));
 
     const results = [];
     // In-bounds boundary cases for indexing
@@ -54,13 +54,13 @@ Promise.all([
   assert.sameValue(
     outcomes[0],
     'A timed-out',
-    '"A " + (await Atomics.waitAsync(view, 0, 0, 0).value resolves to "A timed-out"'
+    '"A " + (await Atomics.waitAsync(view, 0, 0n, 0).value resolves to "A timed-out"'
   );
 
   assert.sameValue(
     outcomes[1],
     'B not-equal',
-    '"B " + (await Atomics.waitAsync(view, 0, 37, 0).value resolves to "B not-equal"'
+    '"B " + (await Atomics.waitAsync(view, 0, 37n, 0).value resolves to "B not-equal"'
   );
   assert.sameValue(
     outcomes[2],
